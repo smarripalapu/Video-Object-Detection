@@ -15,3 +15,9 @@
 * Save the trained model.
 
 
+#### Object detection 
+* This is first tested on images. The camera API id called on notebook using java script to access webcam.
+* The webcam clicks an image and sends the image numpy array converted to tensor, to detect the boundary boxes of the labels in image.
+* The same logic is implemented to detect an object in video. Each video is divided into frames and each frame is considered as an image.
+* If the number of detections in the image are greater than 1, then, send an email with the attachment of image. This is done using SMTP_SSL module.
+
