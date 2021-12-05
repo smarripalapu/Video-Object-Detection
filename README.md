@@ -3,7 +3,7 @@
 #### Data preperation
 * Raw Image and Annotation files used to create train and test csv and tfrecord files are uploaded in pistol_data and knife_data folders.
 * The xml annotation files are parsed on the features and a corresponding csv files are created.
-* The csv and tfrecord files generated can be viewed in [gdrive](https://drive.google.com/drive/u/0/folders/17dJMRMj5-QBFoHV9mfgi8Xw8QqyCzPyR)
+* The csv and tfrecord files generated can be viewed in [gdrive](https://drive.google.com/drive/u/0/folders/1wikNE11hON6FuCKV2tVk0op2HW6aS0Hh)
 * This data contains black and white images and rotated images for a better accuracy.
 * Object_detection.pynb has the code used for this conversions.
 
